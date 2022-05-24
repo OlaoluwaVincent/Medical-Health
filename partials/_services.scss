@@ -1,9 +1,5 @@
 #services {
     // width: 100vw;
-    &>p {
-        margin: 0 auto;
-       margin-bottom: 2.5rem;
-width :80%
      }
     .container {
         display: grid;
@@ -56,6 +52,10 @@ width :80%
 
 @media screen and (max-width: 600px) {
     #services {
+&>p {
+        margin: 0 auto;
+       margin-bottom: 2.5rem;
+width:80%
         .container {
             grid-template-columns: 1fr;
             article {
